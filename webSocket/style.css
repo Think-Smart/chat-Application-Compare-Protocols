@@ -1,0 +1,140 @@
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    /*
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+	*/
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /*
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+	*/
+    background: rgba(0,0,0,0.4); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.4); 
+}
+html { 
+	font-family: "Roboto", sans-serif;
+    color: #FFF;
+	background: url(bg_abstract.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+body {
+	margin: 0;
+}
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+	font-weight: 100;
+    font-size: 48px;
+    text-shadow: 1px 1px 7px #000000;
+}
+a{
+    padding: 10px 25px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-decoration: initial;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    display: inline-block;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+a:hover {
+    background: #FFF;
+    color: indianred;
+}
+
+#content {
+    text-align: left;
+    background: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    padding: 15px;
+    height: 200px;
+    overflow: auto;
+}
+.pull-right {
+	float:right;
+}
+#sendMessge {
+	display: block;
+    margin-bottom: 120px;
+}
+#sendMessge input:focus,
+#sendMessge input:focus {
+    outline: none;
+}
+#sendMessge input{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: none;
+    padding: 10px;
+    color: #FFF;
+    width: 60%;
+    float: left;
+    display: block;
+	font-size: 20px;
+}
+#sendMessge input.name{
+    width: 20%;
+    background: rgba(0, 0, 0, 0.4);
+}
+#sendMessge input::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+#sendMessge button{
+    background: #513C43;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    color: #FFF;
+    width: 20%;
+    float: left;
+    display: block;
+    cursor: pointer;
+	font-size: 20px;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    transition: 0.3s all;
+}
+#sendMessge button:hover{
+    background:#7A5257
+}
+@media screen and (max-width: 630px) {
+	body {padding: 0 15px;}
+	#wrapper {width: 100%;padding-top: 50px;}
+	h1 {font-size: 40px;}
+}
+@media screen and (max-width: 430px) {
+	#wrapper {padding-top: 40px;}
+	h1 {font-size: 30px;}
+	
+	#sendMessge input {width: 50%;font-size: 18px;}
+	#sendMessge button, #sendMessge input.name {width: 25%;}
+	#sendMessge button {font-size: 18px;}
+}
