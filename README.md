@@ -13,7 +13,7 @@ work with WebSocket and NodeJS.
 ## Team
 Ori Amir - oriamir1@gmail.com
 Barak Turgeman - barak@thinksmart.co.il
-[![Ori](https://avatars0.githubusercontent.com/u/17565646?v=3&s=80)](https://github.com/OriAmir)
+[![Ori](https://avatars2.githubusercontent.com/u/17565646?v=3&s=80)](https://github.com/OriAmir)
 [![Barak](https://avatars2.githubusercontent.com/u/9195309?v=3&s=80)](https://github.com/Think-Smart)
 
 ## Credit
