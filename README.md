@@ -2,7 +2,7 @@
 chat Application Compare Protocols between HTTP and Websocket
 
 ## What can you find here
-Here can you find two chat app.
+Here can you find two chat app with 2 diffrent working methods
 
 ### First app HTTP: 
 work with HTTP and PHP and AJAX.
