@@ -10,6 +10,10 @@ work with HTTP and PHP and AJAX.
 ### Second app WebSocket: 
 work with WebSocket and NodeJS.
 
+## Team
+Ori Amir - oriamir1@gmail.com
+Barak Turgeman - barak@thinksmart.co.il
+
 ## Credit
 Thanks for Martin Sikora for chat with nodeJS
 http://usualcarrot.com/nodejs-and-websocket-simple-chat-tutorial
