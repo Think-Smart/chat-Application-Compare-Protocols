@@ -11,7 +11,6 @@ work with HTTP and PHP and AJAX.
 work with WebSocket and NodeJS.
 
 ## Team
-[![Ori](<img src="https://avatars2.githubusercontent.com/u/17565646?v=3&s=120" width="120">)](https://github.com/OriAmir)
 [![Ori](https://avatars2.githubusercontent.com/u/17565646?v=3&s=120)](https://github.com/OriAmir)
 [![Barak](https://avatars2.githubusercontent.com/u/9195309?v=3&s=120)](https://github.com/Think-Smart)
 
