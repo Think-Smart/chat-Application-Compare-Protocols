@@ -2,8 +2,8 @@
 chat Application Compare Protocols between HTTP and Websocket
 
 ## What can you find here
-Here can you find two chat app with 2 diffrent working methods
-[![Poject - Hebrew]](https://github.com/Think-Smart/chat-Application-Compare-Protocols/blob/master/project-hebrew.pdf)
+Here can you find two chat app with 2 diffrent working methods 
+[Poject - Hebrew](https://github.com/Think-Smart/chat-Application-Compare-Protocols/blob/master/project-hebrew.pdf)
 
 ### First app HTTP: 
 work with HTTP and PHP and AJAX.
